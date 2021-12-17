@@ -46,7 +46,7 @@ jobs:
 
     - name: install dependencies
       run: |
-        make install
+        make install-all
         pip freeze
 
     - run: pytest --cov=asgard -vv

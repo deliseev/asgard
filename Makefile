@@ -19,6 +19,7 @@ install-all: install install-dev
 .PHONY: run
 run:
 	uvicorn asgard.main:app
+
 .PHONY: format
 format:
 	$(isort)
