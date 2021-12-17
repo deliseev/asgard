@@ -1,0 +1,7 @@
+pytest
+flake8
+coverage
+isort
+black
+pytest-cov
+pytest-asyncio
